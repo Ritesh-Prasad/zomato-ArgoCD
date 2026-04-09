@@ -30,4 +30,6 @@ spec:
   selector:
     app: zomato
   ports:
-  - port: 3000        
+  - protocol: TCP
+    port: 3000
+    targetPort: 3000
