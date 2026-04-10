@@ -19,12 +19,17 @@ spec:
         image: riteshprasad07/zomato-project:latest
         ports:
         - containerPort: 3000
+        env:
+        - name: HOST
+          value: "0.0.0.0"   # 🔥 Important fix
+        - name: PORT
+          value: "3000"
 
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: service1
+  name: zomato-service
 spec:
   type: LoadBalancer
   selector:
