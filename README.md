@@ -8,11 +8,11 @@
   <img src="images/pods_svc.png" width="800">
 </p>
 <p align="center">
-  <img src="images/s3_Bucket.png" width="800">
+  <img src="images/S3_Bucket.png" width="800">
 </p>
 <p align="center">
   <img src="images/website_zomato_clone.png" width="800">
 </p>
 <p align="center">
-  <img src="images/Aws_instances.png" width="800">
+  <img src="images/Aws_Instances.png" width="800">
 </p>
